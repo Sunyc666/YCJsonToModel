@@ -11,7 +11,7 @@
 #import "MJExtension.h"
 #import "YCJsonToModelProvider.h"
 ```
-* (2)准备数据源(此处假数据依托于MJExtension进行 NSDictionary -> Json，实战中将Json形式的接口数据传入步骤三中的方法即可)
+* (3)准备数据源(此处假数据依托于MJExtension进行 NSDictionary -> Json，实战中将Json形式的接口数据传入步骤三中的方法即可)
 ```Objective-C
 NSDictionary * jsonDicSubDic = @{
                                      @"msg":@"访问成功",
@@ -55,7 +55,7 @@ NSDictionary * jsonDicSubDic = @{
                                      @"code":@"200"
                                      };
 ```
-* (3)调用方法生成对应的Model文件(此处默认生成文件地址为桌面，方便导入到工程)
+* (4)调用方法生成对应的Model文件(此处默认生成文件地址为桌面，方便导入到工程)
 ```Objective-C
 /**
      生成model文件入口
