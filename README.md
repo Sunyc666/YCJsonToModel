@@ -5,7 +5,7 @@
 * 解决OC开发中，日常接口调试多字段数模转换费时费力的问题
 
 ## 使用教程
-* (1)将YCJsonToModel(包含libYCJsonToModel.a、YCJsonToModelProvider.h)，拖入工程
+* (1)将YCJsonToModel文件夹(包含libYCJsonToModel.a、YCJsonToModelProvider.h)，拖入工程
 * (2)导入
 ```Objective-C
 #import "MJExtension.h"
