@@ -2,13 +2,13 @@
 ## 数模转换，直接生成model文件到桌面
 ### 目标：解决OC开发中，日常接口调试多字段数模转换费时费力的问题
 
-## 使用教程（此处假数据依托于MJExtension进行 NSDictionary -> Json）
+## 使用教程
 * (1)导入
 ```Objective-C
 #import "MJExtension.h"
 #import "YCJsonToModelProvider.h"
 ```
-* (2)准备数据源(实战中将Json形式的接口数据传入步骤三中的方法即可)
+* (2)准备数据源(此处假数据依托于MJExtension进行 NSDictionary -> Json，实战中将Json形式的接口数据传入步骤三中的方法即可)
 ```Objective-C
 NSDictionary * jsonDicSubDic = @{
                                      @"msg":@"访问成功",
