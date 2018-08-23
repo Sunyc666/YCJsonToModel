@@ -94,8 +94,16 @@
                                     @"code":@"200"
                                     };
     
-    //jsonData 传入 json字符串
-    [YCModelFileMgr yc_jsonTomodelWithClassName:@"YCTestJsonDicSubDic" jsonData:jsonDicSubDic.mj_JSONString mjSupport:NO];
+    /**
+     生成model文件入口
+     
+     @param className 类名
+     @param filePath 文件目标路径：需手动配置model文件上层目录路径
+     @param jsonData 数据源
+     @param mjSupport 是否支持 MJExtension
+     */
+    
+    [YCModelFileMgr yc_jsonTomodelWithClassName:@"YCTest" filePath:@"/Users/sunyanchao/Desktop/" jsonData:jsonDicSubDic.mj_JSONString mjSupport:NO];
 }
 
 

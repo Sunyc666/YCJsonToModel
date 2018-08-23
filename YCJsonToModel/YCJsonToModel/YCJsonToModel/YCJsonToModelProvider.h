@@ -15,10 +15,11 @@
 
 /**
  生成model文件入口
-
+ 
  @param className 类名
+ @param filePath 文件目标路径：需手动配置model文件上层目录路径
  @param jsonData 数据源
  @param mjSupport 是否支持 MJExtension
  */
--(void)yc_jsonTomodelWithClassName:(NSString *)className jsonData:(NSString *)jsonData mjSupport:(BOOL)mjSupport;
+-(void)yc_jsonTomodelWithClassName:(NSString *)className filePath:(NSString *)filePath jsonData:(NSString *)jsonData mjSupport:(BOOL)mjSupport;
 @end

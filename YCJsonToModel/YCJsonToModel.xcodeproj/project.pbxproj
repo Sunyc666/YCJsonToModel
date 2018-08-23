@@ -24,7 +24,7 @@
 		CB96727E212D1440000388D2 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = CB967270212D1440000388D2 /* MJPropertyKey.m */; };
 		CB96727F212D1440000388D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB967274212D1440000388D2 /* Info.plist */; };
 		CB967280212D1440000388D2 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB967275212D1440000388D2 /* MJFoundation.m */; };
-		CB967284212D1447000388D2 /* libYCJsonToModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB967282212D1447000388D2 /* libYCJsonToModel.a */; };
+		CBE91A84212E4111003C1E3A /* libYCJsonToModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE91A83212E4111003C1E3A /* libYCJsonToModel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,8 +60,8 @@
 		CB967273212D1440000388D2 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
 		CB967274212D1440000388D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB967275212D1440000388D2 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
-		CB967282212D1447000388D2 /* libYCJsonToModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYCJsonToModel.a; sourceTree = "<group>"; };
-		CB967283212D1447000388D2 /* YCJsonToModelProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCJsonToModelProvider.h; sourceTree = "<group>"; };
+		CBE91A82212E4111003C1E3A /* YCJsonToModelProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCJsonToModelProvider.h; sourceTree = "<group>"; };
+		CBE91A83212E4111003C1E3A /* libYCJsonToModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYCJsonToModel.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB967284212D1447000388D2 /* libYCJsonToModel.a in Frameworks */,
+				CBE91A84212E4111003C1E3A /* libYCJsonToModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +142,8 @@
 		CB967281212D1447000388D2 /* YCJsonToModel */ = {
 			isa = PBXGroup;
 			children = (
-				CB967282212D1447000388D2 /* libYCJsonToModel.a */,
-				CB967283212D1447000388D2 /* YCJsonToModelProvider.h */,
+				CBE91A83212E4111003C1E3A /* libYCJsonToModel.a */,
+				CBE91A82212E4111003C1E3A /* YCJsonToModelProvider.h */,
 			);
 			path = YCJsonToModel;
 			sourceTree = "<group>";
