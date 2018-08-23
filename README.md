@@ -1,6 +1,6 @@
 # YCJsonToModel
 ## 作用：
-* 数模转换，直接生成model文件到桌面
+* 数模转换，直接生成model文件到指定路径
 ## 目标：
 * 解决OC开发中，日常接口调试多字段数模转换费时费力的问题
 
@@ -57,14 +57,16 @@ NSDictionary * jsonDicSubDic = @{
 ```
 * (4)调用方法生成对应的Model文件(此处默认生成文件地址为桌面，方便导入到工程)
 ```Objective-C
-/**
+     /**
      生成model文件入口
      
      @param className 类名
+     @param filePath 文件目标路径：需手动配置model文件上层目录路径
      @param jsonData 数据源
      @param mjSupport 是否支持 MJExtension
      */
-    [YCModelFileMgr yc_jsonTomodelWithClassName:@"YCTestJsonDicSubDic" jsonData:jsonDicSubDic.mj_JSONString mjSupport:NO];
+    
+    [YCModelFileMgr yc_jsonTomodelWithClassName:@"YCTest" filePath:@"/Users/sunyanchao/Desktop/" jsonData:jsonDicSubDic.mj_JSONString mjSupport:NO];
 ```
 
 ## 期待
