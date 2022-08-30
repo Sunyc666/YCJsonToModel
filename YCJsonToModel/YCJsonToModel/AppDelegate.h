@@ -2,16 +2,15 @@
 //  AppDelegate.h
 //  YCJsonToModel
 //
-//  Created by sunyanchao on 2018/8/22.
-//  Copyright © 2018年 pbph. All rights reserved.
+//  Created by yc on 2021/3/16.
+//  Copyright © 2021 syc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) UIWindow * window;
 
 @end
 

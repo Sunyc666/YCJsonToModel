@@ -7,143 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB96724B212D1425000388D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96724A212D1425000388D2 /* AppDelegate.m */; };
-		CB96724E212D1425000388D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96724D212D1425000388D2 /* ViewController.m */; };
-		CB967251212D1425000388D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB96724F212D1425000388D2 /* Main.storyboard */; };
-		CB967253212D1426000388D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB967252212D1426000388D2 /* Assets.xcassets */; };
-		CB967256212D1426000388D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB967254212D1426000388D2 /* LaunchScreen.storyboard */; };
-		CB967259212D1426000388D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB967258212D1426000388D2 /* main.m */; };
-		CB967276212D1440000388D2 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = CB967263212D1440000388D2 /* MJPropertyType.m */; };
-		CB967277212D1440000388D2 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB967266212D1440000388D2 /* NSObject+MJKeyValue.m */; };
-		CB967278212D1440000388D2 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CB967267212D1440000388D2 /* MJProperty.m */; };
-		CB967279212D1440000388D2 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CB967269212D1440000388D2 /* NSObject+MJCoding.m */; };
-		CB96727A212D1440000388D2 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96726B212D1440000388D2 /* MJExtensionConst.m */; };
-		CB96727B212D1440000388D2 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96726C212D1440000388D2 /* NSObject+MJProperty.m */; };
-		CB96727C212D1440000388D2 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96726E212D1440000388D2 /* NSObject+MJClass.m */; };
-		CB96727D212D1440000388D2 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96726F212D1440000388D2 /* NSString+MJExtension.m */; };
-		CB96727E212D1440000388D2 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = CB967270212D1440000388D2 /* MJPropertyKey.m */; };
-		CB96727F212D1440000388D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB967274212D1440000388D2 /* Info.plist */; };
-		CB967280212D1440000388D2 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB967275212D1440000388D2 /* MJFoundation.m */; };
-		CBE91A84212E4111003C1E3A /* libYCJsonToModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE91A83212E4111003C1E3A /* libYCJsonToModel.a */; };
+		887ADFE726006CFD0075DD5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 887ADFE626006CFD0075DD5F /* AppDelegate.m */; };
+		887ADFED26006CFD0075DD5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887ADFEC26006CFD0075DD5F /* ViewController.m */; };
+		887ADFF026006CFD0075DD5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887ADFEE26006CFD0075DD5F /* Main.storyboard */; };
+		887ADFF226006D000075DD5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887ADFF126006D000075DD5F /* Assets.xcassets */; };
+		887ADFF526006D000075DD5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887ADFF326006D000075DD5F /* LaunchScreen.storyboard */; };
+		887ADFF826006D000075DD5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 887ADFF726006D000075DD5F /* main.m */; };
+		887AE00326006DC20075DD5F /* YCJsonToModelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 887AE00226006DC20075DD5F /* YCJsonToModelProvider.m */; };
+		887AE0062600709C0075DD5F /* YCJsonToModelTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 887AE0052600709C0075DD5F /* YCJsonToModelTools.m */; };
+		887AE00926007B990075DD5F /* YCJsonToModelFileHeaderMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 887AE00826007B990075DD5F /* YCJsonToModelFileHeaderMgr.m */; };
+		887AE0382600923D0075DD5F /* YCJsonToModelHFileMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 887AE0372600923C0075DD5F /* YCJsonToModelHFileMgr.m */; };
+		887AE03B260092430075DD5F /* YCJsonToModelMFileMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 887AE03A260092430075DD5F /* YCJsonToModelMFileMgr.m */; };
+		88E443F52606006400E22EB2 /* ycTestJson.txt in Resources */ = {isa = PBXBuildFile; fileRef = 88E443F42606006400E22EB2 /* ycTestJson.txt */; };
+		B0D07C9FB49B7BFC8FDADBEA /* libPods-YCJsonToModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 231899085CA7E29C4CD7CD57 /* libPods-YCJsonToModel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB967246212D1425000388D2 /* YCJsonToModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCJsonToModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB967249212D1425000388D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CB96724A212D1425000388D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB96724C212D1425000388D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB96724D212D1425000388D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CB967250212D1425000388D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB967252212D1426000388D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB967255212D1426000388D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CB967257212D1426000388D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB967258212D1426000388D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CB967260212D1440000388D2 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
-		CB967261212D1440000388D2 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
-		CB967262212D1440000388D2 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
-		CB967263212D1440000388D2 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
-		CB967264212D1440000388D2 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		CB967265212D1440000388D2 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
-		CB967266212D1440000388D2 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		CB967267212D1440000388D2 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
-		CB967268212D1440000388D2 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
-		CB967269212D1440000388D2 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
-		CB96726A212D1440000388D2 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
-		CB96726B212D1440000388D2 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
-		CB96726C212D1440000388D2 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
-		CB96726D212D1440000388D2 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
-		CB96726E212D1440000388D2 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
-		CB96726F212D1440000388D2 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
-		CB967270212D1440000388D2 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
-		CB967271212D1440000388D2 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
-		CB967272212D1440000388D2 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		CB967273212D1440000388D2 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		CB967274212D1440000388D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB967275212D1440000388D2 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
-		CBE91A82212E4111003C1E3A /* YCJsonToModelProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCJsonToModelProvider.h; sourceTree = "<group>"; };
-		CBE91A83212E4111003C1E3A /* libYCJsonToModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYCJsonToModel.a; sourceTree = "<group>"; };
+		231899085CA7E29C4CD7CD57 /* libPods-YCJsonToModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YCJsonToModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5436AA6646AFEFDD78E83C1A /* Pods-YCJsonToModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCJsonToModel.release.xcconfig"; path = "Target Support Files/Pods-YCJsonToModel/Pods-YCJsonToModel.release.xcconfig"; sourceTree = "<group>"; };
+		887ADFE226006CFD0075DD5F /* YCJsonToModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCJsonToModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		887ADFE526006CFD0075DD5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		887ADFE626006CFD0075DD5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		887ADFEB26006CFD0075DD5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		887ADFEC26006CFD0075DD5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		887ADFEF26006CFD0075DD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		887ADFF126006D000075DD5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		887ADFF426006D000075DD5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		887ADFF626006D000075DD5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887ADFF726006D000075DD5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		887AE00126006DC20075DD5F /* YCJsonToModelProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCJsonToModelProvider.h; sourceTree = "<group>"; };
+		887AE00226006DC20075DD5F /* YCJsonToModelProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCJsonToModelProvider.m; sourceTree = "<group>"; };
+		887AE0042600709C0075DD5F /* YCJsonToModelTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCJsonToModelTools.h; sourceTree = "<group>"; };
+		887AE0052600709C0075DD5F /* YCJsonToModelTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCJsonToModelTools.m; sourceTree = "<group>"; };
+		887AE00726007B990075DD5F /* YCJsonToModelFileHeaderMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCJsonToModelFileHeaderMgr.h; sourceTree = "<group>"; };
+		887AE00826007B990075DD5F /* YCJsonToModelFileHeaderMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCJsonToModelFileHeaderMgr.m; sourceTree = "<group>"; };
+		887AE035260089B90075DD5F /* YCJsonToModelHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCJsonToModelHeader.h; sourceTree = "<group>"; };
+		887AE0362600923C0075DD5F /* YCJsonToModelHFileMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCJsonToModelHFileMgr.h; sourceTree = "<group>"; };
+		887AE0372600923C0075DD5F /* YCJsonToModelHFileMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCJsonToModelHFileMgr.m; sourceTree = "<group>"; };
+		887AE039260092430075DD5F /* YCJsonToModelMFileMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCJsonToModelMFileMgr.h; sourceTree = "<group>"; };
+		887AE03A260092430075DD5F /* YCJsonToModelMFileMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCJsonToModelMFileMgr.m; sourceTree = "<group>"; };
+		88E443F42606006400E22EB2 /* ycTestJson.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ycTestJson.txt; sourceTree = "<group>"; };
+		973A797AE99CA3360DAF33CC /* Pods-YCJsonToModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCJsonToModel.debug.xcconfig"; path = "Target Support Files/Pods-YCJsonToModel/Pods-YCJsonToModel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CB967243212D1425000388D2 /* Frameworks */ = {
+		887ADFDF26006CFD0075DD5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE91A84212E4111003C1E3A /* libYCJsonToModel.a in Frameworks */,
+				B0D07C9FB49B7BFC8FDADBEA /* libPods-YCJsonToModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB96723D212D1425000388D2 = {
+		3566259AD949A97A13F29DC5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB967248212D1425000388D2 /* YCJsonToModel */,
-				CB967247212D1425000388D2 /* Products */,
+				973A797AE99CA3360DAF33CC /* Pods-YCJsonToModel.debug.xcconfig */,
+				5436AA6646AFEFDD78E83C1A /* Pods-YCJsonToModel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BCC21FDEFFF1DC658AF2A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231899085CA7E29C4CD7CD57 /* libPods-YCJsonToModel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		887ADFD926006CFD0075DD5F = {
+			isa = PBXGroup;
+			children = (
+				887ADFE426006CFD0075DD5F /* YCJsonToModel */,
+				887ADFE326006CFD0075DD5F /* Products */,
+				3566259AD949A97A13F29DC5 /* Pods */,
+				6BCC21FDEFFF1DC658AF2A2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		CB967247212D1425000388D2 /* Products */ = {
+		887ADFE326006CFD0075DD5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB967246212D1425000388D2 /* YCJsonToModel.app */,
+				887ADFE226006CFD0075DD5F /* YCJsonToModel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB967248212D1425000388D2 /* YCJsonToModel */ = {
+		887ADFE426006CFD0075DD5F /* YCJsonToModel */ = {
 			isa = PBXGroup;
 			children = (
-				CB96725F212D1440000388D2 /* MJExtension */,
-				CB967249212D1425000388D2 /* AppDelegate.h */,
-				CB96724A212D1425000388D2 /* AppDelegate.m */,
-				CB96724C212D1425000388D2 /* ViewController.h */,
-				CB96724D212D1425000388D2 /* ViewController.m */,
-				CB967281212D1447000388D2 /* YCJsonToModel */,
-				CB96724F212D1425000388D2 /* Main.storyboard */,
-				CB967252212D1426000388D2 /* Assets.xcassets */,
-				CB967254212D1426000388D2 /* LaunchScreen.storyboard */,
-				CB967257212D1426000388D2 /* Info.plist */,
-				CB967258212D1426000388D2 /* main.m */,
-			);
-			path = YCJsonToModel;
-			sourceTree = "<group>";
-		};
-		CB96725F212D1440000388D2 /* MJExtension */ = {
-			isa = PBXGroup;
-			children = (
-				CB967260212D1440000388D2 /* MJPropertyKey.h */,
-				CB967261212D1440000388D2 /* NSObject+MJClass.h */,
-				CB967262212D1440000388D2 /* NSString+MJExtension.h */,
-				CB967263212D1440000388D2 /* MJPropertyType.m */,
-				CB967264212D1440000388D2 /* NSObject+MJProperty.h */,
-				CB967265212D1440000388D2 /* MJExtensionConst.h */,
-				CB967266212D1440000388D2 /* NSObject+MJKeyValue.m */,
-				CB967267212D1440000388D2 /* MJProperty.m */,
-				CB967268212D1440000388D2 /* MJFoundation.h */,
-				CB967269212D1440000388D2 /* NSObject+MJCoding.m */,
-				CB96726A212D1440000388D2 /* MJExtension.h */,
-				CB96726B212D1440000388D2 /* MJExtensionConst.m */,
-				CB96726C212D1440000388D2 /* NSObject+MJProperty.m */,
-				CB96726D212D1440000388D2 /* MJPropertyType.h */,
-				CB96726E212D1440000388D2 /* NSObject+MJClass.m */,
-				CB96726F212D1440000388D2 /* NSString+MJExtension.m */,
-				CB967270212D1440000388D2 /* MJPropertyKey.m */,
-				CB967271212D1440000388D2 /* MJProperty.h */,
-				CB967272212D1440000388D2 /* NSObject+MJKeyValue.h */,
-				CB967273212D1440000388D2 /* NSObject+MJCoding.h */,
-				CB967274212D1440000388D2 /* Info.plist */,
-				CB967275212D1440000388D2 /* MJFoundation.m */,
-			);
-			path = MJExtension;
-			sourceTree = "<group>";
-		};
-		CB967281212D1447000388D2 /* YCJsonToModel */ = {
-			isa = PBXGroup;
-			children = (
-				CBE91A83212E4111003C1E3A /* libYCJsonToModel.a */,
-				CBE91A82212E4111003C1E3A /* YCJsonToModelProvider.h */,
+				88E443F42606006400E22EB2 /* ycTestJson.txt */,
+				887ADFE526006CFD0075DD5F /* AppDelegate.h */,
+				887ADFE626006CFD0075DD5F /* AppDelegate.m */,
+				887ADFEB26006CFD0075DD5F /* ViewController.h */,
+				887ADFEC26006CFD0075DD5F /* ViewController.m */,
+				887AE035260089B90075DD5F /* YCJsonToModelHeader.h */,
+				887AE00126006DC20075DD5F /* YCJsonToModelProvider.h */,
+				887AE00226006DC20075DD5F /* YCJsonToModelProvider.m */,
+				887AE0362600923C0075DD5F /* YCJsonToModelHFileMgr.h */,
+				887AE0372600923C0075DD5F /* YCJsonToModelHFileMgr.m */,
+				887AE039260092430075DD5F /* YCJsonToModelMFileMgr.h */,
+				887AE03A260092430075DD5F /* YCJsonToModelMFileMgr.m */,
+				887AE0042600709C0075DD5F /* YCJsonToModelTools.h */,
+				887AE0052600709C0075DD5F /* YCJsonToModelTools.m */,
+				887AE00726007B990075DD5F /* YCJsonToModelFileHeaderMgr.h */,
+				887AE00826007B990075DD5F /* YCJsonToModelFileHeaderMgr.m */,
+				887ADFEE26006CFD0075DD5F /* Main.storyboard */,
+				887ADFF126006D000075DD5F /* Assets.xcassets */,
+				887ADFF326006D000075DD5F /* LaunchScreen.storyboard */,
+				887ADFF626006D000075DD5F /* Info.plist */,
+				887ADFF726006D000075DD5F /* main.m */,
 			);
 			path = YCJsonToModel;
 			sourceTree = "<group>";
@@ -151,13 +128,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB967245212D1425000388D2 /* YCJsonToModel */ = {
+		887ADFE126006CFD0075DD5F /* YCJsonToModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB96725C212D1426000388D2 /* Build configuration list for PBXNativeTarget "YCJsonToModel" */;
+			buildConfigurationList = 887ADFFB26006D000075DD5F /* Build configuration list for PBXNativeTarget "YCJsonToModel" */;
 			buildPhases = (
-				CB967242212D1425000388D2 /* Sources */,
-				CB967243212D1425000388D2 /* Frameworks */,
-				CB967244212D1425000388D2 /* Resources */,
+				E7AB0DAB64881F92E116C397 /* [CP] Check Pods Manifest.lock */,
+				887ADFDE26006CFD0075DD5F /* Sources */,
+				887ADFDF26006CFD0075DD5F /* Frameworks */,
+				887ADFE026006CFD0075DD5F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -165,24 +143,24 @@
 			);
 			name = YCJsonToModel;
 			productName = YCJsonToModel;
-			productReference = CB967246212D1425000388D2 /* YCJsonToModel.app */;
+			productReference = 887ADFE226006CFD0075DD5F /* YCJsonToModel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CB96723E212D1425000388D2 /* Project object */ = {
+		887ADFDA26006CFD0075DD5F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = pbph;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = syc;
 				TargetAttributes = {
-					CB967245212D1425000388D2 = {
-						CreatedOnToolsVersion = 9.4.1;
+					887ADFE126006CFD0075DD5F = {
+						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = CB967241212D1425000388D2 /* Build configuration list for PBXProject "YCJsonToModel" */;
+			buildConfigurationList = 887ADFDD26006CFD0075DD5F /* Build configuration list for PBXProject "YCJsonToModel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,66 +168,86 @@
 				en,
 				Base,
 			);
-			mainGroup = CB96723D212D1425000388D2;
-			productRefGroup = CB967247212D1425000388D2 /* Products */;
+			mainGroup = 887ADFD926006CFD0075DD5F;
+			productRefGroup = 887ADFE326006CFD0075DD5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB967245212D1425000388D2 /* YCJsonToModel */,
+				887ADFE126006CFD0075DD5F /* YCJsonToModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CB967244212D1425000388D2 /* Resources */ = {
+		887ADFE026006CFD0075DD5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB96727F212D1440000388D2 /* Info.plist in Resources */,
-				CB967256212D1426000388D2 /* LaunchScreen.storyboard in Resources */,
-				CB967253212D1426000388D2 /* Assets.xcassets in Resources */,
-				CB967251212D1425000388D2 /* Main.storyboard in Resources */,
+				887ADFF526006D000075DD5F /* LaunchScreen.storyboard in Resources */,
+				887ADFF226006D000075DD5F /* Assets.xcassets in Resources */,
+				88E443F52606006400E22EB2 /* ycTestJson.txt in Resources */,
+				887ADFF026006CFD0075DD5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E7AB0DAB64881F92E116C397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCJsonToModel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		CB967242212D1425000388D2 /* Sources */ = {
+		887ADFDE26006CFD0075DD5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB96727A212D1440000388D2 /* MJExtensionConst.m in Sources */,
-				CB96727D212D1440000388D2 /* NSString+MJExtension.m in Sources */,
-				CB96727B212D1440000388D2 /* NSObject+MJProperty.m in Sources */,
-				CB967279212D1440000388D2 /* NSObject+MJCoding.m in Sources */,
-				CB96727C212D1440000388D2 /* NSObject+MJClass.m in Sources */,
-				CB96724E212D1425000388D2 /* ViewController.m in Sources */,
-				CB967278212D1440000388D2 /* MJProperty.m in Sources */,
-				CB967280212D1440000388D2 /* MJFoundation.m in Sources */,
-				CB96727E212D1440000388D2 /* MJPropertyKey.m in Sources */,
-				CB967276212D1440000388D2 /* MJPropertyType.m in Sources */,
-				CB967259212D1426000388D2 /* main.m in Sources */,
-				CB967277212D1440000388D2 /* NSObject+MJKeyValue.m in Sources */,
-				CB96724B212D1425000388D2 /* AppDelegate.m in Sources */,
+				887AE00926007B990075DD5F /* YCJsonToModelFileHeaderMgr.m in Sources */,
+				887AE0382600923D0075DD5F /* YCJsonToModelHFileMgr.m in Sources */,
+				887ADFED26006CFD0075DD5F /* ViewController.m in Sources */,
+				887ADFE726006CFD0075DD5F /* AppDelegate.m in Sources */,
+				887ADFF826006D000075DD5F /* main.m in Sources */,
+				887AE0062600709C0075DD5F /* YCJsonToModelTools.m in Sources */,
+				887AE00326006DC20075DD5F /* YCJsonToModelProvider.m in Sources */,
+				887AE03B260092430075DD5F /* YCJsonToModelMFileMgr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB96724F212D1425000388D2 /* Main.storyboard */ = {
+		887ADFEE26006CFD0075DD5F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB967250212D1425000388D2 /* Base */,
+				887ADFEF26006CFD0075DD5F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CB967254212D1426000388D2 /* LaunchScreen.storyboard */ = {
+		887ADFF326006D000075DD5F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB967255212D1426000388D2 /* Base */,
+				887ADFF426006D000075DD5F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -257,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CB96725A212D1426000388D2 /* Debug */ = {
+		887ADFF926006D000075DD5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +287,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -308,14 +305,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		CB96725B212D1426000388D2 /* Release */ = {
+		887ADFFA26006D000075DD5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +345,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -360,79 +357,76 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CB96725D212D1426000388D2 /* Debug */ = {
+		887ADFFC26006D000075DD5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973A797AE99CA3360DAF33CC /* Pods-YCJsonToModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4F88SQCFWB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YCJsonToModel/YCJsonToModelHeader.h";
 				INFOPLIST_FILE = YCJsonToModel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/YCJsonToModel/YCJsonToModel",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pbph.YCJsonToModel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syc.YCJsonToModel;
+				PRODUCT_NAME = YCJsonToModel;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		CB96725E212D1426000388D2 /* Release */ = {
+		887ADFFD26006D000075DD5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5436AA6646AFEFDD78E83C1A /* Pods-YCJsonToModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4F88SQCFWB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YCJsonToModel/YCJsonToModelHeader.h";
 				INFOPLIST_FILE = YCJsonToModel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/YCJsonToModel/YCJsonToModel",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pbph.YCJsonToModel;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syc.YCJsonToModel;
+				PRODUCT_NAME = YCJsonToModel;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB967241212D1425000388D2 /* Build configuration list for PBXProject "YCJsonToModel" */ = {
+		887ADFDD26006CFD0075DD5F /* Build configuration list for PBXProject "YCJsonToModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB96725A212D1426000388D2 /* Debug */,
-				CB96725B212D1426000388D2 /* Release */,
+				887ADFF926006D000075DD5F /* Debug */,
+				887ADFFA26006D000075DD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB96725C212D1426000388D2 /* Build configuration list for PBXNativeTarget "YCJsonToModel" */ = {
+		887ADFFB26006D000075DD5F /* Build configuration list for PBXNativeTarget "YCJsonToModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB96725D212D1426000388D2 /* Debug */,
-				CB96725E212D1426000388D2 /* Release */,
+				887ADFFC26006D000075DD5F /* Debug */,
+				887ADFFD26006D000075DD5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CB96723E212D1425000388D2 /* Project object */;
+	rootObject = 887ADFDA26006CFD0075DD5F /* Project object */;
 }

@@ -2,15 +2,18 @@
 //  main.m
 //  YCJsonToModel
 //
-//  Created by sunyanchao on 2018/8/22.
-//  Copyright © 2018年 pbph. All rights reserved.
+//  Created by yc on 2021/3/16.
+//  Copyright © 2021 syc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
+    NSString * appDelegateClassName;
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        // Setup code that might create autoreleased objects goes here.
+        appDelegateClassName = NSStringFromClass([AppDelegate class]);
     }
+    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
